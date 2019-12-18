@@ -1,0 +1,4 @@
+Average is ...
+average of 201411168 is... : 60
+average of 201411170 is... : 73
+average of 201411180 is... : 63

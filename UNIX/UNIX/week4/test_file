@@ -1,0 +1,20 @@
+#!/bin/bash
+#test_file
+
+echo "input your file name"
+read file
+
+if [[ -a $file ]]
+then
+    echo "file is existed"
+elif [[ -f $file ]]
+then
+    echo "normal"
+elif [[ -d $file ]]    
+then
+    echo "directory"
+
+else
+    echo "other objective file"
+
+fi

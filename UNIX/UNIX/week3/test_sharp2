@@ -1,0 +1,6 @@
+#!/bin/bash
+# comment
+
+WHATEVER=65
+echo hello print
+exit $WHATEVER

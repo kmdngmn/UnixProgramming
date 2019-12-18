@@ -1,0 +1,13 @@
+#!/bin/bash
+#test_while
+
+count=1
+sum=0
+
+while (( count <= 10 ))
+do
+    (( sum += count ))
+    let count+=1
+done
+
+echo $sum

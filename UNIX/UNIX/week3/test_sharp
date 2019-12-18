@@ -1,0 +1,4 @@
+#!/bin/bash
+# test_sharp : print script
+
+echo "This line is printed"

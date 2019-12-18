@@ -1,0 +1,24 @@
+
+
+----------2019-12-9 18:49:23----------
+
+Send Message : File name to download: /home/ubuntu/UNIX/hw02/client/unix.txt
+Download Completed!!!
+
+=========================================
+
+
+----------2019-12-9 20: 7:16----------
+
+Send Message : [Info] : hello world
+
+Send Message : 
+=========================================
+
+
+----------2019-12-9 20: 9: 0----------
+
+Send Message : File name to download: /home/ubuntu/UNIX/hw02/client/unix.txt
+Download Completed!!!
+
+=========================================

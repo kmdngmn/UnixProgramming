@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for person in $*
+do
+    mailx $person < letter
+    echo send to ${person} 
+done
+echo ------
+echo complete

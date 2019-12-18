@@ -1,0 +1,12 @@
+#!/bin/bash
+#test function
+
+function add {
+    
+    sum=0
+    (( sum=$1 $2 $3 ))
+    return $sum
+    
+}
+
+echo $sum

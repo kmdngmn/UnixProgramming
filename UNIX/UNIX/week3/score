@@ -1,0 +1,22 @@
+#!/bin/bash
+#score test
+
+echo "math : "
+read a
+
+echo "english : "
+read b
+
+sum=$((a+b))
+
+if (( sum > 180 ))
+then 
+    echo A
+elif (( sum > 100 && sum <= 180 ))
+then
+    echo B
+else
+    echo C
+
+fi    
+    

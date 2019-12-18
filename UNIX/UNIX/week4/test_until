@@ -1,0 +1,11 @@
+#!/bin/bash
+#test_until
+
+echo -n "person name : "
+read person
+
+until who | grep $person
+do
+    sleep 3
+done
+echo "\007"

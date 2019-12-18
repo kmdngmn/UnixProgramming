@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mail user1 << END
+THIS IS A TEST MAIL FOR HERE DOCUMENT
+END
+
+echo hello world:

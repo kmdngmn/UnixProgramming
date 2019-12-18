@@ -1,0 +1,14 @@
+
+Command 'gets' not found, did you mean:
+
+  command 'geth' from snap geth (v1.9.5)
+
+See 'snap info <snapname>' for additional versions.
+
+
+Command 'gets' not found, did you mean:
+
+  command 'geth' from snap geth (v1.9.5)
+
+See 'snap info <snapname>' for additional versions.
+

@@ -1,0 +1,13 @@
+#!/bin/bash
+#test_until
+
+echo "login id : "
+read id
+
+until who|grep $id
+do
+    sleep 3
+    echo hi
+done
+
+echo "correct"

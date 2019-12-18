@@ -1,0 +1,12 @@
+#!/bin/bash
+# test_position
+
+echo '$* : ' $*
+
+echo '$# : ' $#
+
+echo '$@ : ' $@
+
+echo $1 $2 $3
+
+set --

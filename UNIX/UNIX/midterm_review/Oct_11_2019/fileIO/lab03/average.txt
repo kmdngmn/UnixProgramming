@@ -1,0 +1,2 @@
+average is ...average is : 60
+average is : 63

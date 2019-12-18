@@ -1,0 +1,4 @@
+average is .... not bad..
+average is : 68
+average is : 76
+average is : 68

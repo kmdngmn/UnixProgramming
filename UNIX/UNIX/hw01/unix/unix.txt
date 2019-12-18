@@ -1,0 +1,4 @@
+hello world
+i love unix
+i want to go home
+unix programming

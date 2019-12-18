@@ -1,0 +1,75 @@
+avahi      684     1  0 18:59 ?        00:00:00 avahi-daemon: running [ubuntu-VirtualBox.local]
+ubuntu    1257     1  0 18:59 ?        00:00:00 /lib/systemd/systemd --user
+ubuntu    1258  1257  0 18:59 ?        00:00:00 (sd-pam)
+ubuntu    1271     1  0 18:59 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ubuntu    1275  1253  0 18:59 tty1     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+ubuntu    1277  1275  0 18:59 tty1     00:00:08 /usr/lib/xorg/Xorg vt1 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ubuntu    1282  1257  0 18:59 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ubuntu    1286  1275  0 18:59 tty1     00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+ubuntu    1385     1  0 18:59 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+ubuntu    1386  1385  0 18:59 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+ubuntu    1395     1  0 18:59 ?        00:00:00 /usr/bin/VBoxClient --display
+ubuntu    1396  1395  0 18:59 ?        00:00:00 /usr/bin/VBoxClient --display
+ubuntu    1400     1  0 18:59 ?        00:00:00 /usr/bin/VBoxClient --seamless
+ubuntu    1401  1400  0 18:59 ?        00:00:00 /usr/bin/VBoxClient --seamless
+ubuntu    1408     1  0 18:59 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+ubuntu    1409  1408  0 18:59 ?        00:00:01 /usr/bin/VBoxClient --draganddrop
+ubuntu    1422  1286  0 18:59 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+ubuntu    1425  1257  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfsd
+ubuntu    1430  1257  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ubuntu    1439  1257  0 18:59 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+ubuntu    1444  1439  0 18:59 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+ubuntu    1447  1257  0 18:59 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ubuntu    1470  1286  3 18:59 tty1     00:00:35 /usr/bin/gnome-shell
+ubuntu    1487     1  0 18:59 ?        00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+ubuntu    1499  1470  0 18:59 tty1     00:00:01 ibus-daemon --xim --panel disable
+ubuntu    1502  1257  0 18:59 ?        00:00:00 /usr/libexec/xdg-permission-store
+ubuntu    1504  1499  0 18:59 tty1     00:00:00 /usr/lib/ibus/ibus-dconf
+ubuntu    1509     1  0 18:59 tty1     00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+ubuntu    1511  1257  0 18:59 ?        00:00:00 /usr/lib/ibus/ibus-portal
+ubuntu    1522  1257  0 18:59 ?        00:00:00 /usr/lib/gnome-shell/gnome-shell-calendar-server
+ubuntu    1528  1257  0 18:59 ?        00:00:00 /usr/lib/evolution/evolution-source-registry
+ubuntu    1533  1257  0 18:59 ?        00:00:00 /usr/lib/dconf/dconf-service
+ubuntu    1545  1257  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+ubuntu    1551  1257  0 18:59 ?        00:00:00 /usr/lib/gnome-online-accounts/goa-daemon
+ubuntu    1553  1257  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ubuntu    1557  1257  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ubuntu    1562  1257  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+ubuntu    1573  1257  0 18:59 ?        00:00:00 /usr/lib/gnome-online-accounts/goa-identity-service
+ubuntu    1578  1257  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+ubuntu    1583  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-power
+ubuntu    1585  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+ubuntu    1586  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+ubuntu    1587  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+ubuntu    1592  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+ubuntu    1599  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+ubuntu    1600  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+ubuntu    1612  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+ubuntu    1613  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+ubuntu    1621  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+ubuntu    1622  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+ubuntu    1627  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-color
+ubuntu    1633  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+ubuntu    1636  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+ubuntu    1641  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+ubuntu    1645  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+ubuntu    1646  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+ubuntu    1663     1  0 18:59 tty1     00:00:00 /usr/lib/gnome-settings-daemon/gsd-printer
+ubuntu    1690  1286  0 18:59 tty1     00:00:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+ubuntu    1695  1286  0 18:59 tty1     00:00:01 nautilus-desktop
+ubuntu    1745  1257  0 18:59 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory
+ubuntu    1754  1425  0 18:59 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+ubuntu    1835  1745  0 19:00 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1745x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1745/2
+ubuntu    1848  1257  0 19:00 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+ubuntu    1855  1848  0 19:00 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1848x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1848/2
+ubuntu    1863  1499  0 19:00 tty1     00:00:00 /usr/lib/ibus/ibus-engine-simple
+ubuntu    1969  1257  0 19:00 ?        00:00:04 /usr/lib/gnome-terminal/gnome-terminal-server
+ubuntu    1979  1969  0 19:00 pts/0    00:00:00 bash
+ubuntu    1990  1286  0 19:00 tty1     00:00:07 /usr/bin/gnome-software --gapplication-service
+ubuntu    1992  1286  0 19:00 tty1     00:00:00 update-notifier
+ubuntu    2098  1286  0 19:01 tty1     00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+ubuntu   14199     1  1 19:07 tty1     00:00:08 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+ubuntu   14325  1979  0 19:14 pts/0    00:00:00 ./6-1
+ubuntu   14326 14325  0 19:14 pts/0    00:00:00 sh -c ps -ef | grep ubuntu > test.txt
+ubuntu   14327 14326  0 19:14 pts/0    00:00:00 ps -ef
+ubuntu   14328 14326  0 19:14 pts/0    00:00:00 grep ubuntu

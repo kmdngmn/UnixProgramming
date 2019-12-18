@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pwd
+
+file * | grep "script"

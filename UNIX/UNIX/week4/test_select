@@ -1,0 +1,19 @@
+#!/bin/bash
+#test_select
+
+select cmd in pwd date quit
+do
+    case $cmd in
+    pwd)
+        pwd;;
+    date)
+        date;;
+    quit)
+        break;;
+    *)
+        echo wrong number;;
+    
+    esac
+    REPLY=
+    
+done

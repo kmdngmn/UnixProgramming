@@ -1,0 +1,36 @@
+
+
+---------- 2019-12-9 18:49:17 ----------
+
+Wait for the Client to connect...
+[Client Connection] IP: 127.0.0.1 , Port: 57966
+transfer file : /home/ubuntu/UNIX/hw02/server/unix.txt
+File transfer is complete!!!
+
+========================================
+
+
+---------- 2019-12-9 20: 6:58 ----------
+
+Wait for the Client to connect...
+[Client Connection] IP: 127.0.0.1 , Port: 57980
+ [Client] : hello world
+
+Termination due to client's request...
+
+========================================
+
+
+---------- 2019-12-9 20: 8:16 ----------
+
+Wait for the Client to connect...
+
+
+---------- 2019-12-9 20: 8:38 ----------
+
+Wait for the Client to connect...
+[Client Connection] IP: 127.0.0.1 , Port: 60644
+transfer file : /home/ubuntu/UNIX/hw02/server/unix.txt
+File transfer is complete!!!
+
+========================================

@@ -1,0 +1,21 @@
+#!/bin/bash
+#test_switch
+
+echo "input : "
+read cmds
+
+case $cmds in
+[0-9])
+    date
+    ;;
+"cd" | "CD")
+    echo $HOME
+    ;;
+[aA-C]*)
+    pwd
+    ;;
+*)
+    
+    echo Usage : select operation
+    ;;
+esac    

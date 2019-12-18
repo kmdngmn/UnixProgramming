@@ -1,0 +1,25 @@
+#!/bin/bash
+#test_select2
+
+PS3="input Operation : "
+
+select cmd in pwd ls ls-l cal date quit
+do
+    case $cmd in
+    pwd)
+        pwd ;;
+    ls)
+        ls ;;
+    ls-l)
+        ls -l ;;
+    cal)
+        cal ;;
+    date)
+        date ;;
+    quit)
+        break ;;
+    *)
+        echo "error operation"
+    esac
+
+done

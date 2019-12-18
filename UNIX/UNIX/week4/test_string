@@ -1,0 +1,13 @@
+#!/bin/bash
+#test_string
+
+echo "Are you Ok(y/n)?"
+
+read mind
+
+if [[ $mind == [Yy]* ]]
+then
+    echo happy day
+else
+    echo bad day
+fi
